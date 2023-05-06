@@ -15,10 +15,11 @@ app.get('/', (req, res) => {
     res.send('Hello World!');
 });
 
+app.use('/api/login', require('./routes/login'));
+app.use('/api/validateuser', require('./routes/validateuser'));
 app.use('/api/upload', require('./routes/upload'));
 app.use('/api/transcode', require('./routes/transcribe'));
-// app.use('/api/text', require('./routes/text'));
-app.use('/api/filenames', require('./routes/filenames'));
+
 
 // single file download
 app.use('/api/download', require('./routes/download'));
