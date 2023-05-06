@@ -73,7 +73,7 @@ The endpoint will zip all the text files present in the download folder and send
 jobStatus.js
 ```
 
-This script will check the status of the transcript id from (**results.json**) and if the job status is completed it will create a text file with the transcript name of the file and it will store it in the download folder and if the job status is not completed it will wait for 5 seconds and check the status again. This script will run every 5 seconds until all the transcript ids are completed. After all the transcript ids are completed it will delete the (**results.json**) file.
+This script checks the status of each transcript ID in the (**results.json**) file. If the job status is 'completed,' it creates a text file with the transcript name, deletes the corresponding audio file from the upload folder, and stores the text file in the download folder. If the job status is not 'completed,' the script waits for 5 seconds and checks the status again. This process continues every 5 seconds until all transcript IDs are marked as 'completed.' Once all transcripts are completed, the (**results.json**)file is deleted.
 
 ```
 deleteOld.js

@@ -37,6 +37,8 @@ async function fetchJobStatuses() {
                 // if the status is done then remove it from the results.json file
                 const index = results.findIndex(result => result.job_id === job_id);
                 results.splice(index, 1);
+
+
                 fs.writeFile('./results.json', JSON.stringify(results), (err) => {
                     if (err) throw err;
                     console.log(`Job ${job_id} removed from results.json`);
@@ -62,6 +64,13 @@ async function fetchJobStatuses() {
                     // console.log(`Transcript saved to ${fileName}`);
                 }
                 );
+
+                // remove the audio file from the upload folder
+                fs.unlink(`./uploads/${file_name}`, (err) => {
+                    if (err) throw err;
+                    console.log(`${file_name} was deleted`);
+                });
+
             }
 
             // console.log(status)
