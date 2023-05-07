@@ -3,7 +3,8 @@ const fs = require('fs');
 require('dotenv').config();
 
 const results = require('./results.json');
-const downloadFolder = __dirname+"/download/";
+const path = require('path');
+const downloadFolder = __dirname + "/download/";
 const format = "txt";
 
 function resultLength() {
@@ -16,7 +17,7 @@ function resultLength() {
     }
 }
 
-//resultLength();
+resultLength();
 
 
 async function fetchJobStatuses() {
@@ -55,9 +56,9 @@ async function fetchJobStatuses() {
                 // console.log(transcript)
                 const textFileName = file_name.split(".")[0]
 
-                const newTextFileName = textFileName.replace(/\s+/g, '_');
+                // const newTextFileName = textFileName.replace(/\s+/g, '_');
 
-                const fileName = `${downloadFolder}${newTextFileName}.${format}`;
+                const fileName = `${downloadFolder}${textFileName}.${format}`;
                 //save the transcript to a file
                 fs.writeFile(fileName, transcript, (err) => {
                     if (err) throw err;
@@ -72,7 +73,6 @@ async function fetchJobStatuses() {
                 });
 
             }
-
             // console.log(status)
 
         } catch (error) {

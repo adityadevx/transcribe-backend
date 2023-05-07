@@ -22,10 +22,12 @@ app.use('/api/transcode', require('./routes/transcribe'));
 
 
 // single file download
-app.use('/api/download', require('./routes/download'));
+// app.use('/api/download', require('./routes/download'));
 
 // zip file download
 app.use('/api/zip', require('./routes/zip'));
+
+app.use('/api/downloadlist', require('./routes/downloadlist'));
 
 
 app.listen(port, () => {

@@ -3,9 +3,10 @@ require('dotenv').config();
 const fs = require('fs');
 const fetch = require('node-fetch').default;
 const FormData = require('form-data');
+const path = require('path');
 
 
-const audioFolder = __dirname+'/uploads/';
+const audioFolder = path.join(__dirname, '..', '/uploads/');
 const API_KEY = process.env.API_KEY;
 
 const transcodeAudio = async (outputLocale, diarization, accuracy) => {
@@ -52,10 +53,10 @@ router.post('/', async (req, res) => {
         console.log(req.body)
         const results = await transcodeAudio(outputLocale, diarization, accuracy);
         console.log(results);
-        fs.writeFileSync('./results.json', JSON.stringify(results));
+        fs.writeFileSync(path.resolve(__dirname, '../results.json'), JSON.stringify(results));
         res.status(200).json(results);
     } catch (err) {
-        console.error(err);
+        console.error(err.message, err.stack);
         res.status(500).send('Internal server error');
     }
 });

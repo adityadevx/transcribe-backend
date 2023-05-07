@@ -1,7 +1,6 @@
 const fs = require('fs');
 require('dotenv').config();
 
-const requiredFields = [];
 
 const fetchAllJobs = async () => {
 
@@ -14,7 +13,7 @@ const fetchAllJobs = async () => {
 
     jobs.forEach(async (job) => {
         try {
-            const timeInMilliseconds = 86400000; // 1 day
+            const timeInMilliseconds = 86400000 * 5; // 5 days
             if (Date.parse(job.created_at) < Date.now() - timeInMilliseconds) {
                 // console.log(job);
                 const response = await fetch(`https://asr.api.speechmatics.com/v2/jobs/${job.id}`, {
