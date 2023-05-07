@@ -5,7 +5,7 @@ const fetch = require('node-fetch').default;
 const FormData = require('form-data');
 
 
-const audioFolder = './uploads/';
+const audioFolder = __dirname+'/uploads/';
 const API_KEY = process.env.API_KEY;
 
 const transcodeAudio = async (outputLocale, diarization, accuracy) => {

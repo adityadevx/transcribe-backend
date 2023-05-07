@@ -3,7 +3,7 @@ const fs = require('fs');
 require('dotenv').config();
 
 const results = require('./results.json');
-const downloadFolder = "./download/";
+const downloadFolder = __dirname+"/download/";
 const format = "txt";
 
 function resultLength() {
@@ -16,7 +16,7 @@ function resultLength() {
     }
 }
 
-resultLength();
+//resultLength();
 
 
 async function fetchJobStatuses() {
