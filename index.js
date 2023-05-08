@@ -28,6 +28,7 @@ app.use('/api/transcode', require('./routes/transcribe'));
 app.use('/api/zip', require('./routes/zip'));
 
 app.use('/api/downloadlist', require('./routes/downloadlist'));
+app.use('/api/delete', require('./routes/deletefiles'));
 
 
 app.listen(port, () => {

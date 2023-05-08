@@ -4,7 +4,7 @@ require('dotenv').config();
 
 const results = require('./results.json');
 const path = require('path');
-const downloadFolder = __dirname + "/download/";
+const downloadFolder = path.join(__dirname, './download/');
 const format = "txt";
 
 function resultLength() {
@@ -60,6 +60,11 @@ async function fetchJobStatuses() {
 
                 const fileName = `${downloadFolder}${textFileName}.${format}`;
                 //save the transcript to a file
+                if (!fs.existsSync(downloadFolder)) {
+                    fs.mkdirSync(downloadFolder);
+                }
+
+
                 fs.writeFile(fileName, transcript, (err) => {
                     if (err) throw err;
                     // console.log(`Transcript saved to ${fileName}`);
