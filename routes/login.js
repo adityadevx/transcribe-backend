@@ -5,7 +5,7 @@ const fs = require('fs');
 const path = require('path');
 
 // console.log(token)
-const idpass = require('../idpass.json');
+const idpass = require(__dirname+'/idpass.json');
 
 router.post('/', (req, res) => {
     const { email, password } = req.body;

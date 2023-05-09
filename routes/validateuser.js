@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const sessionid = require('../sessionid.json');
+const sessionid = require(__dirname+'/sessionid.json');
 
 
 router.post('/', (req, res) => {

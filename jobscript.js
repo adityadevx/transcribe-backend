@@ -15,7 +15,7 @@ const checkForResults = async () => {
         if (parsedResults.length !== 0) {
             await fetchJobStatuses(parsedResults);
         }
-        console.log(`Check Passed with ${parsedResults.length} items.`)
+        //console.log(`Check Passed with ${parsedResults.length} items.`)
         await checkForResults()
     } catch (error) {
         console.error(`Error fetching job status: ${error}`);
