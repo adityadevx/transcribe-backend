@@ -6,7 +6,7 @@ const path = require('path');
 const downloadFolder = path.join(__dirname, './download/');
 const format = "txt";
 
-async function checkForResults() {
+const checkForResults = async () => {
     try {
         const results = await fs.promises.readFile('./results.json');
         const parsedResults = JSON.parse(results);
@@ -15,6 +15,8 @@ async function checkForResults() {
         if (parsedResults.length !== 0) {
             await fetchJobStatuses(parsedResults);
         }
+        console.log(`Check Passed with ${parsedResults.length} items.`)
+        await checkForResults()
     } catch (error) {
         console.error(`Error fetching job status: ${error}`);
     }
@@ -76,15 +78,16 @@ async function fetchJobStatuses(results) {
             console.error(`Error fetching job status for ${file_name}: ${error}`);
         }
     }
+    return true
 }
 
-// setInterval(() => {
-//     console.log('Checking for results')
-//     checkForResults();
-// }, 1000);
+//setInterval(() => {
+    // console.log('Checking for results')
+  //   checkForResults();
+//}, 1000);
 
 
-while (true) {
-    checkForResults();
-}
+//while (true) {
+checkForResults();
+//}
 // console.log('Watching for changes to results.json');
