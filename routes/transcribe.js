@@ -5,6 +5,9 @@ const fetch = require('node-fetch').default;
 const FormData = require('form-data');
 const path = require('path');
 
+if (!fs.existsSync(path.join(__dirname, '..', '/uploads/'))) {
+    fs.mkdirSync(path.join(__dirname, '..', '/uploads/'));
+}
 
 const audioFolder = path.join(__dirname, '..', '/uploads/');
 const API_KEY = process.env.API_KEY;
@@ -44,6 +47,7 @@ const transcodeAudio = async (outputLocale, diarization, accuracy) => {
         };
     });
     const results = await Promise.all(promises);
+
     return results;
 };
 
