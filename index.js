@@ -29,6 +29,7 @@ app.use('/api/zip', require('./routes/zip'));
 
 app.use('/api/downloadlist', require('./routes/downloadlist'));
 app.use('/api/delete', require('./routes/deletefiles'));
+app.use('/api/resetpass', require('./routes/resetpass'));
 
 
 app.listen(port, () => {

@@ -43,7 +43,7 @@ async function fetchJobStatuses(results) {
                 const index = results.findIndex(result => result.job_id === job_id);
                 results.splice(index, 1);
 
-                fs.writeFile('./results.json', JSON.stringify(results), (err) => {
+                fs.writeFile(path.join(__dirname, './results.json'), JSON.stringify(results), (err) => {
                     if (err) throw err;
                     console.log(`Job ${job_id} removed from results.json`);
                 });
@@ -64,11 +64,12 @@ async function fetchJobStatuses(results) {
                 }
 
                 fs.writeFile(fileName, transcript, (err) => {
-                    if (err) throw err;
+                    if (err) throw err.message;
+
                 });
 
-                fs.unlink(`./uploads/${file_name}`, (err) => {
-                    if (err) throw err;
+                fs.unlink(path.join(__dirname, `./uploads/${file_name}`), (err) => {
+                    if (err) throw err.message;
                     console.log(`File ${file_name} removed from uploads`);
                 });
 
@@ -82,8 +83,8 @@ async function fetchJobStatuses(results) {
 }
 
 //setInterval(() => {
-    // console.log('Checking for results')
-  //   checkForResults();
+// console.log('Checking for results')
+//   checkForResults();
 //}, 1000);
 
 
