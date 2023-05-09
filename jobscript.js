@@ -78,12 +78,13 @@ async function fetchJobStatuses(results) {
     }
 }
 
-setInterval(() => {
-    console.log('Checking for results')
+// setInterval(() => {
+//     console.log('Checking for results')
+//     checkForResults();
+// }, 1000);
+
+
+while (true) {
     checkForResults();
-}, 1000);
-
-
-
-checkForResults();
+}
 // console.log('Watching for changes to results.json');

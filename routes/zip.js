@@ -23,7 +23,7 @@ router.post('/', async (req, res) => {
 
         const data = zip.toBuffer();
         res.set('Content-Type', 'application/zip');
-        res.set('Content-Disposition', 'attachment; filename=folder.zip');
+        res.set('Content-Disposition', 'attachment; filename=TranscribeFiles.zip');
         res.set('Content-Length', data.length);
         res.end(data, 'binary');
     } catch (error) {
