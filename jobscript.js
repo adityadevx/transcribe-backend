@@ -23,17 +23,19 @@ async function checkForResults() {
 async function fetchJobStatuses(results) {
     for (const { job_id, file_name } of results) {
         try {
-            const response = await fetch(`https://asr.api.speechmatics.com/v2/jobs/${job_id}`, {
-                method: 'GET',
-                headers: { Authorization: `Bearer ${process.env.API_KEY}` },
-            });
-            const result = await response.json();
+            let result
+
+            if (job_id) {
+
+                const response = await fetch(`https://asr.api.speechmatics.com/v2/jobs/${job_id}`, {
+                    method: 'GET',
+                    headers: { Authorization: `Bearer ${process.env.API_KEY}` },
+                });
+                result = await response.json();
+
+            }
 
             const { status } = result.job;
-
-            if (status === undefined) {
-                continue;
-            }
 
             if (status == "done") {
                 const index = results.findIndex(result => result.job_id === job_id);
