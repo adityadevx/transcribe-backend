@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-{"email":"admin","password":"ok"}
-=======
-{"email":"admin","password":"2580"}
->>>>>>> 729f07780f40016fb7b431680a36037b5e926471
+{
+    "email": "admin",
+    "password": "ok"
+}
