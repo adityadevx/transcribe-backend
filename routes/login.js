@@ -5,9 +5,12 @@ const fs = require('fs');
 const path = require('path');
 
 // console.log(token)
-
-router.post('/', (req, res) => {
-    const idpass = require(__dirname + '/idpass.json');
+// const idpass = require(__dirname + '/idpass.json');
+router.post('/', async (req, res) => {
+  
+     const idpass1 = await fs.promises.readFile(__dirname +'/idpass.json');
+const idpass= JSON.parse(idpass1)    
+//  const idpass = require(__dirname + '/idpass.json');
     const { email, password } = req.body;
     // console.log(process.env.EMAIL, process.env.PASSWORD);
 

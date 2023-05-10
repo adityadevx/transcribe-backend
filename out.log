@@ -2,22 +2,22 @@ node:internal/modules/cjs/loader:1078
   throw err;
   ^
 
-Error: Cannot find module '../idpass.json'
+Error: Cannot find module '/opt/backend/routes'
 Require stack:
-- /opt/backend/routes/resetpass.js
+- /opt/backend/routes/login.js
 - /opt/backend/index.js
     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
     at Module._load (node:internal/modules/cjs/loader:920:27)
     at Module.require (node:internal/modules/cjs/loader:1141:19)
     at require (node:internal/modules/cjs/helpers:110:18)
-    at Object.<anonymous> (/opt/backend/routes/resetpass.js:2:16)
+    at Object.<anonymous> (/opt/backend/routes/login.js:8:16)
     at Module._compile (node:internal/modules/cjs/loader:1254:14)
     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
     at Module.load (node:internal/modules/cjs/loader:1117:32)
     at Module._load (node:internal/modules/cjs/loader:958:12)
     at Module.require (node:internal/modules/cjs/loader:1141:19) {
   code: 'MODULE_NOT_FOUND',
-  requireStack: [ '/opt/backend/routes/resetpass.js', '/opt/backend/index.js' ]
+  requireStack: [ '/opt/backend/routes/login.js', '/opt/backend/index.js' ]
 }
 
 Node.js v18.16.0
@@ -25,22 +25,22 @@ node:internal/modules/cjs/loader:1078
   throw err;
   ^
 
-Error: Cannot find module '../idpass.json'
+Error: Cannot find module '/opt/backend/routes'
 Require stack:
-- /opt/backend/routes/resetpass.js
+- /opt/backend/routes/login.js
 - /opt/backend/index.js
     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
     at Module._load (node:internal/modules/cjs/loader:920:27)
     at Module.require (node:internal/modules/cjs/loader:1141:19)
     at require (node:internal/modules/cjs/helpers:110:18)
-    at Object.<anonymous> (/opt/backend/routes/resetpass.js:2:16)
+    at Object.<anonymous> (/opt/backend/routes/login.js:8:16)
     at Module._compile (node:internal/modules/cjs/loader:1254:14)
     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
     at Module.load (node:internal/modules/cjs/loader:1117:32)
     at Module._load (node:internal/modules/cjs/loader:958:12)
     at Module.require (node:internal/modules/cjs/loader:1141:19) {
   code: 'MODULE_NOT_FOUND',
-  requireStack: [ '/opt/backend/routes/resetpass.js', '/opt/backend/index.js' ]
+  requireStack: [ '/opt/backend/routes/login.js', '/opt/backend/index.js' ]
 }
 
 Node.js v18.16.0
@@ -48,22 +48,22 @@ node:internal/modules/cjs/loader:1078
   throw err;
   ^
 
-Error: Cannot find module '../idpass.json'
+Error: Cannot find module '/opt/backend/routes'
 Require stack:
-- /opt/backend/routes/resetpass.js
+- /opt/backend/routes/login.js
 - /opt/backend/index.js
     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
     at Module._load (node:internal/modules/cjs/loader:920:27)
     at Module.require (node:internal/modules/cjs/loader:1141:19)
     at require (node:internal/modules/cjs/helpers:110:18)
-    at Object.<anonymous> (/opt/backend/routes/resetpass.js:2:16)
+    at Object.<anonymous> (/opt/backend/routes/login.js:8:16)
     at Module._compile (node:internal/modules/cjs/loader:1254:14)
     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
     at Module.load (node:internal/modules/cjs/loader:1117:32)
     at Module._load (node:internal/modules/cjs/loader:958:12)
     at Module.require (node:internal/modules/cjs/loader:1141:19) {
   code: 'MODULE_NOT_FOUND',
-  requireStack: [ '/opt/backend/routes/resetpass.js', '/opt/backend/index.js' ]
+  requireStack: [ '/opt/backend/routes/login.js', '/opt/backend/index.js' ]
 }
 
 Node.js v18.16.0
@@ -71,22 +71,22 @@ node:internal/modules/cjs/loader:1078
   throw err;
   ^
 
-Error: Cannot find module '../idpass.json'
+Error: Cannot find module '/opt/backend/routes'
 Require stack:
-- /opt/backend/routes/resetpass.js
+- /opt/backend/routes/login.js
 - /opt/backend/index.js
     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
     at Module._load (node:internal/modules/cjs/loader:920:27)
     at Module.require (node:internal/modules/cjs/loader:1141:19)
     at require (node:internal/modules/cjs/helpers:110:18)
-    at Object.<anonymous> (/opt/backend/routes/resetpass.js:2:16)
+    at Object.<anonymous> (/opt/backend/routes/login.js:8:16)
     at Module._compile (node:internal/modules/cjs/loader:1254:14)
     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
     at Module.load (node:internal/modules/cjs/loader:1117:32)
     at Module._load (node:internal/modules/cjs/loader:958:12)
     at Module.require (node:internal/modules/cjs/loader:1141:19) {
   code: 'MODULE_NOT_FOUND',
-  requireStack: [ '/opt/backend/routes/resetpass.js', '/opt/backend/index.js' ]
+  requireStack: [ '/opt/backend/routes/login.js', '/opt/backend/index.js' ]
 }
 
 Node.js v18.16.0
@@ -94,22 +94,22 @@ node:internal/modules/cjs/loader:1078
   throw err;
   ^
 
-Error: Cannot find module '../idpass.json'
+Error: Cannot find module '/opt/backend/routes'
 Require stack:
-- /opt/backend/routes/resetpass.js
+- /opt/backend/routes/login.js
 - /opt/backend/index.js
     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
     at Module._load (node:internal/modules/cjs/loader:920:27)
     at Module.require (node:internal/modules/cjs/loader:1141:19)
     at require (node:internal/modules/cjs/helpers:110:18)
-    at Object.<anonymous> (/opt/backend/routes/resetpass.js:2:16)
+    at Object.<anonymous> (/opt/backend/routes/login.js:8:16)
     at Module._compile (node:internal/modules/cjs/loader:1254:14)
     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
     at Module.load (node:internal/modules/cjs/loader:1117:32)
     at Module._load (node:internal/modules/cjs/loader:958:12)
     at Module.require (node:internal/modules/cjs/loader:1141:19) {
   code: 'MODULE_NOT_FOUND',
-  requireStack: [ '/opt/backend/routes/resetpass.js', '/opt/backend/index.js' ]
+  requireStack: [ '/opt/backend/routes/login.js', '/opt/backend/index.js' ]
 }
 
 Node.js v18.16.0
@@ -117,22 +117,22 @@ node:internal/modules/cjs/loader:1078
   throw err;
   ^
 
-Error: Cannot find module '../idpass.json'
+Error: Cannot find module '/opt/backend/routes'
 Require stack:
-- /opt/backend/routes/resetpass.js
+- /opt/backend/routes/login.js
 - /opt/backend/index.js
     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
     at Module._load (node:internal/modules/cjs/loader:920:27)
     at Module.require (node:internal/modules/cjs/loader:1141:19)
     at require (node:internal/modules/cjs/helpers:110:18)
-    at Object.<anonymous> (/opt/backend/routes/resetpass.js:2:16)
+    at Object.<anonymous> (/opt/backend/routes/login.js:8:16)
     at Module._compile (node:internal/modules/cjs/loader:1254:14)
     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
     at Module.load (node:internal/modules/cjs/loader:1117:32)
     at Module._load (node:internal/modules/cjs/loader:958:12)
     at Module.require (node:internal/modules/cjs/loader:1141:19) {
   code: 'MODULE_NOT_FOUND',
-  requireStack: [ '/opt/backend/routes/resetpass.js', '/opt/backend/index.js' ]
+  requireStack: [ '/opt/backend/routes/login.js', '/opt/backend/index.js' ]
 }
 
 Node.js v18.16.0
@@ -140,22 +140,22 @@ node:internal/modules/cjs/loader:1078
   throw err;
   ^
 
-Error: Cannot find module '../idpass.json'
+Error: Cannot find module '/opt/backend/routes'
 Require stack:
-- /opt/backend/routes/resetpass.js
+- /opt/backend/routes/login.js
 - /opt/backend/index.js
     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
     at Module._load (node:internal/modules/cjs/loader:920:27)
     at Module.require (node:internal/modules/cjs/loader:1141:19)
     at require (node:internal/modules/cjs/helpers:110:18)
-    at Object.<anonymous> (/opt/backend/routes/resetpass.js:2:16)
+    at Object.<anonymous> (/opt/backend/routes/login.js:8:16)
     at Module._compile (node:internal/modules/cjs/loader:1254:14)
     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
     at Module.load (node:internal/modules/cjs/loader:1117:32)
     at Module._load (node:internal/modules/cjs/loader:958:12)
     at Module.require (node:internal/modules/cjs/loader:1141:19) {
   code: 'MODULE_NOT_FOUND',
-  requireStack: [ '/opt/backend/routes/resetpass.js', '/opt/backend/index.js' ]
+  requireStack: [ '/opt/backend/routes/login.js', '/opt/backend/index.js' ]
 }
 
 Node.js v18.16.0
@@ -163,22 +163,22 @@ node:internal/modules/cjs/loader:1078
   throw err;
   ^
 
-Error: Cannot find module '../idpass.json'
+Error: Cannot find module '/opt/backend/routes'
 Require stack:
-- /opt/backend/routes/resetpass.js
+- /opt/backend/routes/login.js
 - /opt/backend/index.js
     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
     at Module._load (node:internal/modules/cjs/loader:920:27)
     at Module.require (node:internal/modules/cjs/loader:1141:19)
     at require (node:internal/modules/cjs/helpers:110:18)
-    at Object.<anonymous> (/opt/backend/routes/resetpass.js:2:16)
+    at Object.<anonymous> (/opt/backend/routes/login.js:8:16)
     at Module._compile (node:internal/modules/cjs/loader:1254:14)
     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
     at Module.load (node:internal/modules/cjs/loader:1117:32)
     at Module._load (node:internal/modules/cjs/loader:958:12)
     at Module.require (node:internal/modules/cjs/loader:1141:19) {
   code: 'MODULE_NOT_FOUND',
-  requireStack: [ '/opt/backend/routes/resetpass.js', '/opt/backend/index.js' ]
+  requireStack: [ '/opt/backend/routes/login.js', '/opt/backend/index.js' ]
 }
 
 Node.js v18.16.0
@@ -186,22 +186,22 @@ node:internal/modules/cjs/loader:1078
   throw err;
   ^
 
-Error: Cannot find module '../idpass.json'
+Error: Cannot find module '/opt/backend/routes'
 Require stack:
-- /opt/backend/routes/resetpass.js
+- /opt/backend/routes/login.js
 - /opt/backend/index.js
     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
     at Module._load (node:internal/modules/cjs/loader:920:27)
     at Module.require (node:internal/modules/cjs/loader:1141:19)
     at require (node:internal/modules/cjs/helpers:110:18)
-    at Object.<anonymous> (/opt/backend/routes/resetpass.js:2:16)
+    at Object.<anonymous> (/opt/backend/routes/login.js:8:16)
     at Module._compile (node:internal/modules/cjs/loader:1254:14)
     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
     at Module.load (node:internal/modules/cjs/loader:1117:32)
     at Module._load (node:internal/modules/cjs/loader:958:12)
     at Module.require (node:internal/modules/cjs/loader:1141:19) {
   code: 'MODULE_NOT_FOUND',
-  requireStack: [ '/opt/backend/routes/resetpass.js', '/opt/backend/index.js' ]
+  requireStack: [ '/opt/backend/routes/login.js', '/opt/backend/index.js' ]
 }
 
 Node.js v18.16.0
@@ -209,22 +209,22 @@ node:internal/modules/cjs/loader:1078
   throw err;
   ^
 
-Error: Cannot find module '../idpass.json'
+Error: Cannot find module '/opt/backend/routes'
 Require stack:
-- /opt/backend/routes/resetpass.js
+- /opt/backend/routes/login.js
 - /opt/backend/index.js
     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
     at Module._load (node:internal/modules/cjs/loader:920:27)
     at Module.require (node:internal/modules/cjs/loader:1141:19)
     at require (node:internal/modules/cjs/helpers:110:18)
-    at Object.<anonymous> (/opt/backend/routes/resetpass.js:2:16)
+    at Object.<anonymous> (/opt/backend/routes/login.js:8:16)
     at Module._compile (node:internal/modules/cjs/loader:1254:14)
     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
     at Module.load (node:internal/modules/cjs/loader:1117:32)
     at Module._load (node:internal/modules/cjs/loader:958:12)
     at Module.require (node:internal/modules/cjs/loader:1141:19) {
   code: 'MODULE_NOT_FOUND',
-  requireStack: [ '/opt/backend/routes/resetpass.js', '/opt/backend/index.js' ]
+  requireStack: [ '/opt/backend/routes/login.js', '/opt/backend/index.js' ]
 }
 
 Node.js v18.16.0
@@ -232,22 +232,620 @@ node:internal/modules/cjs/loader:1078
   throw err;
   ^
 
-Error: Cannot find module '../idpass.json'
+Error: Cannot find module '/opt/backend/routes'
 Require stack:
-- /opt/backend/routes/resetpass.js
+- /opt/backend/routes/login.js
 - /opt/backend/index.js
     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
     at Module._load (node:internal/modules/cjs/loader:920:27)
     at Module.require (node:internal/modules/cjs/loader:1141:19)
     at require (node:internal/modules/cjs/helpers:110:18)
-    at Object.<anonymous> (/opt/backend/routes/resetpass.js:2:16)
+    at Object.<anonymous> (/opt/backend/routes/login.js:8:16)
     at Module._compile (node:internal/modules/cjs/loader:1254:14)
     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
     at Module.load (node:internal/modules/cjs/loader:1117:32)
     at Module._load (node:internal/modules/cjs/loader:958:12)
     at Module.require (node:internal/modules/cjs/loader:1141:19) {
   code: 'MODULE_NOT_FOUND',
-  requireStack: [ '/opt/backend/routes/resetpass.js', '/opt/backend/index.js' ]
+  requireStack: [ '/opt/backend/routes/login.js', '/opt/backend/index.js' ]
 }
 
 Node.js v18.16.0
+node:internal/modules/cjs/loader:1078
+  throw err;
+  ^
+
+Error: Cannot find module '/opt/backend/routes'
+Require stack:
+- /opt/backend/routes/login.js
+- /opt/backend/index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (/opt/backend/routes/login.js:8:16)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/opt/backend/routes/login.js', '/opt/backend/index.js' ]
+}
+
+Node.js v18.16.0
+node:internal/modules/cjs/loader:1078
+  throw err;
+  ^
+
+Error: Cannot find module '/opt/backend/routes'
+Require stack:
+- /opt/backend/routes/login.js
+- /opt/backend/index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (/opt/backend/routes/login.js:8:16)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/opt/backend/routes/login.js', '/opt/backend/index.js' ]
+}
+
+Node.js v18.16.0
+node:internal/modules/cjs/loader:1078
+  throw err;
+  ^
+
+Error: Cannot find module '/opt/backend/routes'
+Require stack:
+- /opt/backend/routes/login.js
+- /opt/backend/index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (/opt/backend/routes/login.js:8:16)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/opt/backend/routes/login.js', '/opt/backend/index.js' ]
+}
+
+Node.js v18.16.0
+node:internal/modules/cjs/loader:1078
+  throw err;
+  ^
+
+Error: Cannot find module '/opt/backend/routes'
+Require stack:
+- /opt/backend/routes/login.js
+- /opt/backend/index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (/opt/backend/routes/login.js:8:16)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/opt/backend/routes/login.js', '/opt/backend/index.js' ]
+}
+
+Node.js v18.16.0
+node:internal/modules/cjs/loader:1078
+  throw err;
+  ^
+
+Error: Cannot find module '/opt/backend/routes'
+Require stack:
+- /opt/backend/routes/login.js
+- /opt/backend/index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (/opt/backend/routes/login.js:8:16)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/opt/backend/routes/login.js', '/opt/backend/index.js' ]
+}
+
+Node.js v18.16.0
+node:internal/modules/cjs/loader:1078
+  throw err;
+  ^
+
+Error: Cannot find module '/opt/backend/routes'
+Require stack:
+- /opt/backend/routes/login.js
+- /opt/backend/index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (/opt/backend/routes/login.js:8:16)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/opt/backend/routes/login.js', '/opt/backend/index.js' ]
+}
+
+Node.js v18.16.0
+node:internal/modules/cjs/loader:1078
+  throw err;
+  ^
+
+Error: Cannot find module '/opt/backend/routes'
+Require stack:
+- /opt/backend/routes/login.js
+- /opt/backend/index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (/opt/backend/routes/login.js:8:16)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/opt/backend/routes/login.js', '/opt/backend/index.js' ]
+}
+
+Node.js v18.16.0
+Example app listening at http://localhost:7070
+8af4d6224bb33071bd26295a23bff6b7e9922700 token
+8af4d6224bb33071bd26295a23bff6b7e9922700 token
+4c597fad809e33d199c0b4f7d4a52c4b7ccd112a token
+4c597fad809e33d199c0b4f7d4a52c4b7ccd112a token
+123456
+75049869ba2613a30b75981bfee3bad50f4c52e8 token
+/opt/backend/routes/login.js:11
+     const idpass1 = await fs.promises.readFile(__dirname +'/idpass.json');
+                     ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (/opt/backend/index.js:19:23)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+
+Node.js v18.16.0
+/opt/backend/routes/login.js:11
+     const idpass1 = await fs.promises.readFile(__dirname +'/idpass.json');
+                     ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (/opt/backend/index.js:19:23)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+
+Node.js v18.16.0
+/opt/backend/routes/login.js:11
+     const idpass1 = await fs.promises.readFile(__dirname +'/idpass.json');
+                     ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (/opt/backend/index.js:19:23)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+
+Node.js v18.16.0
+/opt/backend/routes/login.js:11
+     const idpass1 = await fs.promises.readFile(__dirname +'/idpass.json');
+                     ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (/opt/backend/index.js:19:23)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+
+Node.js v18.16.0
+/opt/backend/routes/login.js:11
+     const idpass1 = await fs.promises.readFile(__dirname +'/idpass.json');
+                     ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (/opt/backend/index.js:19:23)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+
+Node.js v18.16.0
+/opt/backend/routes/login.js:11
+     const idpass1 = await fs.promises.readFile(__dirname +'/idpass.json');
+                     ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (/opt/backend/index.js:19:23)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+
+Node.js v18.16.0
+/opt/backend/routes/login.js:11
+     const idpass1 = await fs.promises.readFile(__dirname +'/idpass.json');
+                     ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (/opt/backend/index.js:19:23)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+
+Node.js v18.16.0
+/opt/backend/routes/login.js:11
+     const idpass1 = await fs.promises.readFile(__dirname +'/idpass.json');
+                     ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (/opt/backend/index.js:19:23)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+
+Node.js v18.16.0
+/opt/backend/routes/login.js:11
+     const idpass1 = await fs.promises.readFile(__dirname +'/idpass.json');
+                     ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (/opt/backend/index.js:19:23)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+
+Node.js v18.16.0
+Example app listening at http://localhost:7070
+75049869ba2613a30b75981bfee3bad50f4c52e8 token
+/opt/backend/routes/login.js:12
+const idpass= jSON.parse(idpass1)    
+              ^
+
+ReferenceError: jSON is not defined
+    at /opt/backend/routes/login.js:12:15
+
+Node.js v18.16.0
+Example app listening at http://localhost:7070
+/opt/backend/routes/login.js:12
+const idpass= jSON.parse(idpass1)    
+              ^
+
+ReferenceError: jSON is not defined
+    at /opt/backend/routes/login.js:12:15
+
+Node.js v18.16.0
+Example app listening at http://localhost:7070
+/opt/backend/routes/login.js:12
+const idpass= jSON.parse(idpass1)    
+              ^
+
+ReferenceError: jSON is not defined
+    at /opt/backend/routes/login.js:12:15
+
+Node.js v18.16.0
+Example app listening at http://localhost:7070
+/opt/backend/routes/login.js:12
+const idpass= jSON.parse(idpass1)    
+              ^
+
+ReferenceError: jSON is not defined
+    at /opt/backend/routes/login.js:12:15
+
+Node.js v18.16.0
+Example app listening at http://localhost:7070
+/opt/backend/routes/login.js:12
+const idpass= jSON.parse(idpass1)    
+              ^
+
+ReferenceError: jSON is not defined
+    at /opt/backend/routes/login.js:12:15
+
+Node.js v18.16.0
+Example app listening at http://localhost:7070
+/opt/backend/routes/login.js:12
+const idpass= jSON.parse(idpass1)    
+              ^
+
+ReferenceError: jSON is not defined
+    at /opt/backend/routes/login.js:12:15
+
+Node.js v18.16.0
+Example app listening at http://localhost:7070
+/opt/backend/routes/login.js:12
+const idpass= jSON.parse(idpass1)    
+              ^
+
+ReferenceError: jSON is not defined
+    at /opt/backend/routes/login.js:12:15
+
+Node.js v18.16.0
+Example app listening at http://localhost:7070
+/opt/backend/routes/login.js:12
+const idpass= jSON.parse(idpass1)    
+              ^
+
+ReferenceError: jSON is not defined
+    at /opt/backend/routes/login.js:12:15
+
+Node.js v18.16.0
+Example app listening at http://localhost:7070
+/opt/backend/routes/login.js:12
+const idpass= jSON.parse(idpass1)    
+              ^
+
+ReferenceError: jSON is not defined
+    at /opt/backend/routes/login.js:12:15
+
+Node.js v18.16.0
+Example app listening at http://localhost:7070
+/opt/backend/routes/login.js:12
+const idpass= jSON.parse(idpass1)    
+              ^
+
+ReferenceError: jSON is not defined
+    at /opt/backend/routes/login.js:12:15
+
+Node.js v18.16.0
+Example app listening at http://localhost:7070
+Example app listening at http://localhost:7070
+1b1419e5805eb0f64ce921a8aeab2688505d905c token
+46550b8137f621512fc9bb3a41e77c9f9fa0d87f token
+46550b8137f621512fc9bb3a41e77c9f9fa0d87f token
+2580
+71713a1358af441e331cefab0d87a06c7d96ccda token
+1bd83bf87241500367fc4539b53353f8a3b22eb7 token
+1bd83bf87241500367fc4539b53353f8a3b22eb7 token
+1bd83bf87241500367fc4539b53353f8a3b22eb7 token
+{ outputLocale: 'en-GB', diarization: 'speaker', accuracy: 'enhanced' }
+{ id: 'bsc5npehiq' }
+{ id: 's3alvlt6it' }
+{ id: 'rlkg33goaj' }
+{ id: '1ad1zzqmry' }
+{ id: 'om85mnjj0d' }
+{ id: '8rt945ksfx' }
+[
+  {
+    job_id: 's3alvlt6it',
+    file_name: '30 sec English speaking challenge(MP3_70K).mp3'
+  },
+  { job_id: '1ad1zzqmry', file_name: 'Holding.mp3' },
+  { job_id: 'rlkg33goaj', file_name: 'Mocking Bird (1).mp3' },
+  { job_id: 'bsc5npehiq', file_name: 'Mocking Bird.mp3' },
+  { job_id: '8rt945ksfx', file_name: 'bengali reel.mp3' },
+  { job_id: 'om85mnjj0d', file_name: 'love me like you do.mp3' }
+]
+1bd83bf87241500367fc4539b53353f8a3b22eb7 token
+1bd83bf87241500367fc4539b53353f8a3b22eb7 token
+admin
+2a459f63d3ec8fb5bab094f5ce076f789146b75a token
+fc1301a24b995023e8bfc9d7fd3ab1de96f6f9c3 token
+758cf46d0479dc214a5c84ef6562bbfd3570714f token
+758cf46d0479dc214a5c84ef6562bbfd3570714f token
+[
+  'bengali reel.txt',
+  'love me like you do.txt',
+  'Holding.txt',
+  'Mocking Bird (1).txt',
+  '30 sec English speaking challenge(MP3_70K).txt',
+  'Mocking Bird.txt'
+]
+[ 'Holding.txt', '30 sec English speaking challenge(MP3_70K).txt' ]
+Holding.txt was deleted
+30 sec English speaking challenge(MP3_70K).txt was deleted
+[
+  'bengali reel.txt',
+  'love me like you do.txt',
+  'Mocking Bird (1).txt',
+  'Mocking Bird.txt'
+]
+bengali reel.txt was deleted
+love me like you do.txt was deleted
+Mocking Bird (1).txt was deleted
+Mocking Bird.txt was deleted
+758cf46d0479dc214a5c84ef6562bbfd3570714f token
+4a7e452c369ce4d8cddefb326abd3a1d5d0efdfc token
+{ outputLocale: 'en-GB', diarization: 'speaker', accuracy: 'standard' }
+{ id: 'jxekxj41yc' }
+{ id: '9182efc6us' }
+{ id: 'of8ck1w5kz' }
+{ id: 'ommf3lm2dh' }
+{ id: 'pxmvdpavev' }
+{ id: 'j5yyl620mg' }
+[
+  {
+    job_id: 'pxmvdpavev',
+    file_name: '30 sec English speaking challenge(MP3_70K).mp3'
+  },
+  { job_id: 'jxekxj41yc', file_name: 'Holding.mp3' },
+  { job_id: '9182efc6us', file_name: 'Mocking Bird (1).mp3' },
+  { job_id: 'ommf3lm2dh', file_name: 'Mocking Bird.mp3' },
+  { job_id: 'j5yyl620mg', file_name: 'bengali reel.mp3' },
+  { job_id: 'of8ck1w5kz', file_name: 'love me like you do.mp3' }
+]
+4a7e452c369ce4d8cddefb326abd3a1d5d0efdfc token
+4a7e452c369ce4d8cddefb326abd3a1d5d0efdfc token
+4a7e452c369ce4d8cddefb326abd3a1d5d0efdfc token
+4a7e452c369ce4d8cddefb326abd3a1d5d0efdfc token
+4f507b61cb01956dd05d0c03c166eebb937203a5 token
+{ outputLocale: 'en-GB', diarization: 'none', accuracy: 'standard' }
+{ id: 'pj1gs17hmn' }
+[ { job_id: 'pj1gs17hmn', file_name: 'Ed.m4a' } ]
+4f507b61cb01956dd05d0c03c166eebb937203a5 token
+4f507b61cb01956dd05d0c03c166eebb937203a5 token
+4f507b61cb01956dd05d0c03c166eebb937203a5 token
+4f507b61cb01956dd05d0c03c166eebb937203a5 token
+4f507b61cb01956dd05d0c03c166eebb937203a5 token
+4f507b61cb01956dd05d0c03c166eebb937203a5 token
+4f507b61cb01956dd05d0c03c166eebb937203a5 token
+4f507b61cb01956dd05d0c03c166eebb937203a5 token
+4f507b61cb01956dd05d0c03c166eebb937203a5 token
+4f507b61cb01956dd05d0c03c166eebb937203a5 token
+4f507b61cb01956dd05d0c03c166eebb937203a5 token
+4f507b61cb01956dd05d0c03c166eebb937203a5 token
+4f507b61cb01956dd05d0c03c166eebb937203a5 token
+4f507b61cb01956dd05d0c03c166eebb937203a5 token
+4f507b61cb01956dd05d0c03c166eebb937203a5 token
+4f507b61cb01956dd05d0c03c166eebb937203a5 token
+4f507b61cb01956dd05d0c03c166eebb937203a5 token
+4f507b61cb01956dd05d0c03c166eebb937203a5 token
+{ outputLocale: 'en-GB', diarization: 'none', accuracy: 'standard' }
+{ id: 'kevrwtdxcv' }
+[ { job_id: 'kevrwtdxcv', file_name: 'Ed.m4a' } ]
+4f507b61cb01956dd05d0c03c166eebb937203a5 token
+4f507b61cb01956dd05d0c03c166eebb937203a5 token
+4f507b61cb01956dd05d0c03c166eebb937203a5 token
+4f507b61cb01956dd05d0c03c166eebb937203a5 token
+4f507b61cb01956dd05d0c03c166eebb937203a5 token
+4f507b61cb01956dd05d0c03c166eebb937203a5 token
+undefined token
+undefined token
+undefined token
+undefined token
+undefined token
+undefined token
+22dbb1b879e44f8c88f60a9a190d9a8cf5a4206b token
+22dbb1b879e44f8c88f60a9a190d9a8cf5a4206b token
+22dbb1b879e44f8c88f60a9a190d9a8cf5a4206b token
+22dbb1b879e44f8c88f60a9a190d9a8cf5a4206b token
+22dbb1b879e44f8c88f60a9a190d9a8cf5a4206b token
+22dbb1b879e44f8c88f60a9a190d9a8cf5a4206b token
+22dbb1b879e44f8c88f60a9a190d9a8cf5a4206b token
+22dbb1b879e44f8c88f60a9a190d9a8cf5a4206b token
+undefined token
+undefined token
+0f1acc67452a8c79c8cde9a30cdcca78ba3a19ba token
+undefined token
+undefined token
+54f7c7d12ef3ec289f368154ba72c48e3cc64c33 token
+54f7c7d12ef3ec289f368154ba72c48e3cc64c33 token
+undefined token
+undefined token
+undefined token
+undefined token
+d540e5e71781e634c9394b9d56c96da342e151f3 token
+d540e5e71781e634c9394b9d56c96da342e151f3 token
+undefined token
+undefined token
+undefined token
+undefined token
+undefined token
+a78e9920af42cfa6cc8971800bb2bf135896b652 token
+a78e9920af42cfa6cc8971800bb2bf135896b652 token
+[
+  'bengali reel.txt',
+  '30 sec English speaking challenge(MP3_70K).txt',
+  'Mocking Bird.txt',
+  'love me like you do.txt',
+  'Mocking Bird (1).txt',
+  'Holding.txt'
+]
+bengali reel.txt was deleted
+30 sec English speaking challenge(MP3_70K).txt was deleted
+Mocking Bird (1).txt was deleted
+Holding.txt was deleted
+love me like you do.txt was deleted
+Mocking Bird.txt was deleted
+a78e9920af42cfa6cc8971800bb2bf135896b652 token
+{ outputLocale: 'en-GB', diarization: 'speaker', accuracy: 'enhanced' }
+{ id: 'addr5auvic' }
+[
+  {
+    job_id: 'addr5auvic',
+    file_name: '30 sec English speaking challenge(MP3_70K).mp3'
+  }
+]
+a78e9920af42cfa6cc8971800bb2bf135896b652 token
+a78e9920af42cfa6cc8971800bb2bf135896b652 token
+a78e9920af42cfa6cc8971800bb2bf135896b652 token
+a78e9920af42cfa6cc8971800bb2bf135896b652 token
+a78e9920af42cfa6cc8971800bb2bf135896b652 token
+a78e9920af42cfa6cc8971800bb2bf135896b652 token
+a78e9920af42cfa6cc8971800bb2bf135896b652 token
+a78e9920af42cfa6cc8971800bb2bf135896b652 token
+a78e9920af42cfa6cc8971800bb2bf135896b652 token
+{ outputLocale: 'en-US', diarization: 'none', accuracy: 'enhanced' }
+{ id: 'f0pd4y5obo' }
+[ { job_id: 'f0pd4y5obo', file_name: 'me.mpeg' } ]
+a78e9920af42cfa6cc8971800bb2bf135896b652 token
+a78e9920af42cfa6cc8971800bb2bf135896b652 token
+a78e9920af42cfa6cc8971800bb2bf135896b652 token
+Example app listening at http://localhost:7070
+a78e9920af42cfa6cc8971800bb2bf135896b652 token
+a78e9920af42cfa6cc8971800bb2bf135896b652 token

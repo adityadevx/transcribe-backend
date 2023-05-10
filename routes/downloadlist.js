@@ -7,7 +7,8 @@ const path = require('path');
 router.get('/', (req, res) => {
     const listFiles = fs.readdirSync(path.join(__dirname, '../download'));
     listFiles.forEach((file, index) => {
-        listFiles[index] = file.split('.')[0] + '.mp3';
+        //listFiles[index] = file.split('.')[0] + '.mp3';
+	listFiles[index] = file.split('.')[0]
     });
     res.send(listFiles);
 });

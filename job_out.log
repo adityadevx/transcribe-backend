@@ -1,0 +1,138 @@
+
+<--- Last few GCs --->
+
+[73041:0x5d8f150]  1558257 ms: Scavenge 2045.7 (2082.4) -> 2045.0 (2082.4) MB, 8.0 / 0.1 ms  (average mu = 0.218, current mu = 0.199) task; 
+[73041:0x5d8f150]  1558288 ms: Scavenge 2045.8 (2082.4) -> 2045.0 (2082.6) MB, 9.8 / 0.1 ms  (average mu = 0.218, current mu = 0.199) task; 
+[73041:0x5d8f150]  1558307 ms: Scavenge 2045.8 (2082.6) -> 2045.0 (2084.6) MB, 10.4 / 0.1 ms  (average mu = 0.218, current mu = 0.199) task; 
+
+
+<--- JS stacktrace --->
+
+FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaScript heap out of memory
+ 1: 0xb7a940 node::Abort() [node]
+ 2: 0xa8e823  [node]
+ 3: 0xd5c940 v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [node]
+ 4: 0xd5cce7 v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [node]
+ 5: 0xf3a3e5  [node]
+ 6: 0xf3b2e8 v8::internal::Heap::RecomputeLimits(v8::internal::GarbageCollector) [node]
+ 7: 0xf4b7f3  [node]
+ 8: 0xf4c668 v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [node]
+ 9: 0xf4db1a v8::internal::Heap::FinalizeIncrementalMarkingIfComplete(v8::internal::GarbageCollectionReason) [node]
+10: 0xf51603 v8::internal::IncrementalMarkingJob::Task::RunInternal() [node]
+11: 0xe2c07b non-virtual thunk to v8::internal::CancelableTask::Run() [node]
+12: 0xbe6884  [node]
+13: 0xbe9cee node::PerIsolatePlatformData::FlushForegroundTasksInternal() [node]
+14: 0x165eb16  [node]
+15: 0x1671054  [node]
+16: 0x165f47e uv_run [node]
+17: 0xabda6d node::SpinEventLoop(node::Environment*) [node]
+18: 0xbc1164 node::NodeMainInstance::Run() [node]
+19: 0xb35bc8 node::LoadSnapshotDataAndRun(node::SnapshotData const**, node::InitializationResult const*) [node]
+20: 0xb3976f node::Start(int, char**) [node]
+21: 0x7f7558b46083 __libc_start_main [/lib/x86_64-linux-gnu/libc.so.6]
+22: 0xabbdee _start [node]
+Job 306o95g69k removed from results.json
+File love me like you do.mp3 removed from uploads
+Job h35gkjinag removed from results.json
+File Mocking Bird.mp3 removed from uploads
+Job i85o35icsm removed from results.json
+File Holding.mp3 removed from uploads
+Error fetching job status: SyntaxError: Unexpected end of JSON input
+Job rlkg33goaj removed from results.json
+File Mocking Bird (1).mp3 removed from uploads
+Job bsc5npehiq removed from results.json
+File Mocking Bird.mp3 removed from uploads
+Job 1ad1zzqmry removed from results.json
+File Holding.mp3 removed from uploads
+Job om85mnjj0d removed from results.json
+File love me like you do.mp3 removed from uploads
+Job 8rt945ksfx removed from results.json
+File bengali reel.mp3 removed from uploads
+Job s3alvlt6it removed from results.json
+File 30 sec English speaking challenge(MP3_70K).mp3 removed from uploads
+Job 9182efc6us removed from results.json
+File Mocking Bird (1).mp3 removed from uploads
+Job of8ck1w5kz removed from results.json
+File love me like you do.mp3 removed from uploads
+Job ommf3lm2dh removed from results.json
+File Mocking Bird.mp3 removed from uploads
+Job jxekxj41yc removed from results.json
+File Holding.mp3 removed from uploads
+Job j5yyl620mg removed from results.json
+File bengali reel.mp3 removed from uploads
+Job pxmvdpavev removed from results.json
+File 30 sec English speaking challenge(MP3_70K).mp3 removed from uploads
+Job pj1gs17hmn removed from results.json
+File Ed.m4a removed from uploads
+Job kevrwtdxcv removed from results.json
+File Ed.m4a removed from uploads
+
+<--- Last few GCs --->
+
+[76265:0x5dac150]  1606030 ms: Scavenge 2045.0 (2082.1) -> 2044.3 (2082.1) MB, 7.2 / 0.1 ms  (average mu = 0.206, current mu = 0.152) task; 
+[76265:0x5dac150]  1606051 ms: Scavenge 2045.0 (2082.1) -> 2044.3 (2082.1) MB, 13.0 / 0.2 ms  (average mu = 0.206, current mu = 0.152) task; 
+[76265:0x5dac150]  1606072 ms: Scavenge 2045.1 (2082.1) -> 2044.3 (2084.1) MB, 12.3 / 0.9 ms  (average mu = 0.206, current mu = 0.152) task; 
+
+
+<--- JS stacktrace --->
+
+FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaScript heap out of memory
+ 1: 0xb7a940 node::Abort() [node]
+ 2: 0xa8e823  [node]
+ 3: 0xd5c940 v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [node]
+ 4: 0xd5cce7 v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [node]
+ 5: 0xf3a3e5  [node]
+ 6: 0xf3b2e8 v8::internal::Heap::RecomputeLimits(v8::internal::GarbageCollector) [node]
+ 7: 0xf4b7f3  [node]
+ 8: 0xf4c668 v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [node]
+ 9: 0xf4db1a v8::internal::Heap::FinalizeIncrementalMarkingIfComplete(v8::internal::GarbageCollectionReason) [node]
+10: 0xf51603 v8::internal::IncrementalMarkingJob::Task::RunInternal() [node]
+11: 0xe2c07b non-virtual thunk to v8::internal::CancelableTask::Run() [node]
+12: 0xbe6884  [node]
+13: 0xbe9cee node::PerIsolatePlatformData::FlushForegroundTasksInternal() [node]
+14: 0x165eb16  [node]
+15: 0x1671054  [node]
+16: 0x165f47e uv_run [node]
+17: 0xabda6d node::SpinEventLoop(node::Environment*) [node]
+18: 0xbc1164 node::NodeMainInstance::Run() [node]
+19: 0xb35bc8 node::LoadSnapshotDataAndRun(node::SnapshotData const**, node::InitializationResult const*) [node]
+20: 0xb3976f node::Start(int, char**) [node]
+21: 0x7f99ec3c5083 __libc_start_main [/lib/x86_64-linux-gnu/libc.so.6]
+22: 0xabbdee _start [node]
+Job addr5auvic removed from results.json
+File 30 sec English speaking challenge(MP3_70K).mp3 removed from uploads
+
+<--- Last few GCs --->
+
+[76505:0x5d90150]  1533258 ms: Scavenge 2044.9 (2082.1) -> 2044.1 (2082.1) MB, 11.1 / 0.2 ms  (average mu = 0.279, current mu = 0.180) task; 
+[76505:0x5d90150]  1533336 ms: Scavenge 2044.9 (2082.1) -> 2044.2 (2082.1) MB, 8.8 / 0.2 ms  (average mu = 0.279, current mu = 0.180) task; 
+[76505:0x5d90150]  1533365 ms: Scavenge 2044.9 (2082.1) -> 2044.2 (2084.1) MB, 7.0 / 0.2 ms  (average mu = 0.279, current mu = 0.180) task; 
+
+
+<--- JS stacktrace --->
+
+FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaScript heap out of memory
+ 1: 0xb7a940 node::Abort() [node]
+ 2: 0xa8e823  [node]
+ 3: 0xd5c940 v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [node]
+ 4: 0xd5cce7 v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [node]
+ 5: 0xf3a3e5  [node]
+ 6: 0xf3b2e8 v8::internal::Heap::RecomputeLimits(v8::internal::GarbageCollector) [node]
+ 7: 0xf4b7f3  [node]
+ 8: 0xf4c668 v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [node]
+ 9: 0xf4db1a v8::internal::Heap::FinalizeIncrementalMarkingIfComplete(v8::internal::GarbageCollectionReason) [node]
+10: 0xf51603 v8::internal::IncrementalMarkingJob::Task::RunInternal() [node]
+11: 0xe2c07b non-virtual thunk to v8::internal::CancelableTask::Run() [node]
+12: 0xbe6884  [node]
+13: 0xbe9cee node::PerIsolatePlatformData::FlushForegroundTasksInternal() [node]
+14: 0x165eb16  [node]
+15: 0x1671054  [node]
+16: 0x165f47e uv_run [node]
+17: 0xabda6d node::SpinEventLoop(node::Environment*) [node]
+18: 0xbc1164 node::NodeMainInstance::Run() [node]
+19: 0xb35bc8 node::LoadSnapshotDataAndRun(node::SnapshotData const**, node::InitializationResult const*) [node]
+20: 0xb3976f node::Start(int, char**) [node]
+21: 0x7f5573012083 __libc_start_main [/lib/x86_64-linux-gnu/libc.so.6]
+22: 0xabbdee _start [node]
+Job f0pd4y5obo removed from results.json
+File me.mpeg removed from uploads
