@@ -136,3 +136,71 @@ FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaS
 22: 0xabbdee _start [node]
 Job f0pd4y5obo removed from results.json
 File me.mpeg removed from uploads
+
+<--- Last few GCs --->
+
+[76766:0x6c75150]  1572121 ms: Scavenge 2045.3 (2082.9) -> 2043.5 (2083.1) MB, 15.5 / 0.5 ms  (average mu = 0.279, current mu = 0.164) allocation failure; 
+[76766:0x6c75150]  1572161 ms: Scavenge 2045.3 (2083.1) -> 2043.6 (2083.1) MB, 15.5 / 0.5 ms  (average mu = 0.279, current mu = 0.164) task; 
+[76766:0x6c75150]  1572195 ms: Scavenge 2045.1 (2083.1) -> 2043.6 (2083.1) MB, 13.4 / 1.2 ms  (average mu = 0.279, current mu = 0.164) task; 
+
+
+<--- JS stacktrace --->
+
+FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaScript heap out of memory
+ 1: 0xb7a940 node::Abort() [node]
+ 2: 0xa8e823  [node]
+ 3: 0xd5c940 v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [node]
+ 4: 0xd5cce7 v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [node]
+ 5: 0xf3a3e5  [node]
+ 6: 0xf3b2e8 v8::internal::Heap::RecomputeLimits(v8::internal::GarbageCollector) [node]
+ 7: 0xf4b7f3  [node]
+ 8: 0xf4c668 v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [node]
+ 9: 0xf4db1a v8::internal::Heap::FinalizeIncrementalMarkingIfComplete(v8::internal::GarbageCollectionReason) [node]
+10: 0xf51603 v8::internal::IncrementalMarkingJob::Task::RunInternal() [node]
+11: 0xe2c07b non-virtual thunk to v8::internal::CancelableTask::Run() [node]
+12: 0xbe6884  [node]
+13: 0xbe9cee node::PerIsolatePlatformData::FlushForegroundTasksInternal() [node]
+14: 0x165eb16  [node]
+15: 0x1671054  [node]
+16: 0x165f47e uv_run [node]
+17: 0xabda6d node::SpinEventLoop(node::Environment*) [node]
+18: 0xbc1164 node::NodeMainInstance::Run() [node]
+19: 0xb35bc8 node::LoadSnapshotDataAndRun(node::SnapshotData const**, node::InitializationResult const*) [node]
+20: 0xb3976f node::Start(int, char**) [node]
+21: 0x7f92dc10a083 __libc_start_main [/lib/x86_64-linux-gnu/libc.so.6]
+22: 0xabbdee _start [node]
+Job y9cz618woc removed from results.json
+File WhatsApp Audio 2023-05-10 at 3.25.03 PM.mpeg removed from uploads
+
+<--- Last few GCs --->
+
+[76937:0x5f13150]  1545862 ms: Scavenge 2044.9 (2082.1) -> 2044.2 (2082.1) MB, 8.0 / 0.2 ms  (average mu = 0.182, current mu = 0.134) task; 
+[76937:0x5f13150]  1545941 ms: Scavenge 2045.0 (2082.1) -> 2044.2 (2082.1) MB, 13.8 / 0.1 ms  (average mu = 0.182, current mu = 0.134) task; 
+[76937:0x5f13150]  1546009 ms: Scavenge 2045.0 (2082.1) -> 2044.3 (2084.1) MB, 7.2 / 0.1 ms  (average mu = 0.182, current mu = 0.134) task; 
+
+
+<--- JS stacktrace --->
+
+FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaScript heap out of memory
+ 1: 0xb7a940 node::Abort() [node]
+ 2: 0xa8e823  [node]
+ 3: 0xd5c940 v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [node]
+ 4: 0xd5cce7 v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [node]
+ 5: 0xf3a3e5  [node]
+ 6: 0xf3b2e8 v8::internal::Heap::RecomputeLimits(v8::internal::GarbageCollector) [node]
+ 7: 0xf4b7f3  [node]
+ 8: 0xf4c668 v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [node]
+ 9: 0xf4db1a v8::internal::Heap::FinalizeIncrementalMarkingIfComplete(v8::internal::GarbageCollectionReason) [node]
+10: 0xf51603 v8::internal::IncrementalMarkingJob::Task::RunInternal() [node]
+11: 0xe2c07b non-virtual thunk to v8::internal::CancelableTask::Run() [node]
+12: 0xbe6884  [node]
+13: 0xbe9cee node::PerIsolatePlatformData::FlushForegroundTasksInternal() [node]
+14: 0x165eb16  [node]
+15: 0x1671054  [node]
+16: 0x165f47e uv_run [node]
+17: 0xabda6d node::SpinEventLoop(node::Environment*) [node]
+18: 0xbc1164 node::NodeMainInstance::Run() [node]
+19: 0xb35bc8 node::LoadSnapshotDataAndRun(node::SnapshotData const**, node::InitializationResult const*) [node]
+20: 0xb3976f node::Start(int, char**) [node]
+21: 0x7f82c6c14083 __libc_start_main [/lib/x86_64-linux-gnu/libc.so.6]
+22: 0xabbdee _start [node]

@@ -849,3 +849,57 @@ a78e9920af42cfa6cc8971800bb2bf135896b652 token
 Example app listening at http://localhost:7070
 a78e9920af42cfa6cc8971800bb2bf135896b652 token
 a78e9920af42cfa6cc8971800bb2bf135896b652 token
+a78e9920af42cfa6cc8971800bb2bf135896b652 token
+a78e9920af42cfa6cc8971800bb2bf135896b652 token
+{ outputLocale: 'en-AU', diarization: 'speaker', accuracy: 'enhanced' }
+{ id: 'y9cz618woc' }
+[
+  {
+    job_id: 'y9cz618woc',
+    file_name: 'WhatsApp Audio 2023-05-10 at 3.25.03 PM.mpeg'
+  }
+]
+a78e9920af42cfa6cc8971800bb2bf135896b652 token
+a78e9920af42cfa6cc8971800bb2bf135896b652 token
+a78e9920af42cfa6cc8971800bb2bf135896b652 token
+a78e9920af42cfa6cc8971800bb2bf135896b652 token
+a78e9920af42cfa6cc8971800bb2bf135896b652 token
+[
+  'WhatsApp Audio 2023-05-10 at 3.txt',
+  'Ed.txt',
+  'me.txt',
+  '30 sec English speaking challenge(MP3_70K).txt'
+]
+[
+  'WhatsApp Audio 2023-05-10 at 3.txt',
+  'Ed.txt',
+  'me.txt',
+  '30 sec English speaking challenge(MP3_70K).txt',
+  'Ed.txt'
+]
+WhatsApp Audio 2023-05-10 at 3.txt was deleted
+Ed.txt was deleted
+me.txt was deleted
+30 sec English speaking challenge(MP3_70K).txt was deleted
+node:_http_outgoing:645
+    throw new ERR_HTTP_HEADERS_SENT('set');
+    ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.setHeader (node:_http_outgoing:645:11)
+    at ServerResponse.header (/opt/backend/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/opt/backend/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/opt/backend/node_modules/express/lib/response.js:278:15)
+    at /opt/backend/routes/deletefiles.js:12:49
+    at FSReqCallback.oncomplete (node:fs:198:23) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v18.16.0
+Example app listening at http://localhost:7070
+a78e9920af42cfa6cc8971800bb2bf135896b652 token
+a78e9920af42cfa6cc8971800bb2bf135896b652 token
+a78e9920af42cfa6cc8971800bb2bf135896b652 token
+2580
+d6c2f90d37bd13da3551030f421a29f8b2db7e78 token
