@@ -1,14 +1,14 @@
 const fs = require('fs');
-require('dotenv').config();
+const path = require('path');
+const fetch = require('node-fetch');
 
 
 const fetchAllJobs = async () => {
-
     try {
-
+        const API_KEY = JSON.parse(await fs.promises.readFile(path.join(__dirname, './routes/key.json'), 'utf8')).key;
         const response = await fetch(`https://asr.api.speechmatics.com/v2/jobs/`, {
             method: 'GET',
-            headers: { Authorization: `Bearer ${process.env.API_KEY}` },
+            headers: { Authorization: `Bearer ${API_KEY}` },
         });
         const { jobs } = await response.json();
         console.log(jobs);
@@ -20,7 +20,7 @@ const fetchAllJobs = async () => {
                     // console.log(job);
                     const response = await fetch(`https://asr.api.speechmatics.com/v2/jobs/${job.id}`, {
                         method: 'DELETE',
-                        headers: { Authorization: `Bearer ${process.env.API_KEY}` },
+                        headers: { Authorization: `Bearer ${API_KEY}` },
                     });
                     const result = await response.json();
                     console.log(result);
@@ -34,7 +34,7 @@ const fetchAllJobs = async () => {
         });
 
     } catch (e) {
-        console.log(e)
+        console.log(e.message)
     }
 };
 

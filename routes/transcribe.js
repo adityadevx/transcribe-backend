@@ -31,6 +31,9 @@ const transcodeAudio = async (outputLocale, diarization, accuracy) => {
                 },
             })
         );
+
+        const API_KEY = JSON.parse(await fs.promises.readFile(path.join(__dirname, '/key.json'), 'utf8')).key
+
         const response = await fetch("https://asr.api.speechmatics.com/v2/jobs/", {
             method: "POST",
             headers: {

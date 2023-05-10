@@ -1,13 +1,11 @@
 const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
-// const check = require('./check');
 
-// console.log(check)
 
 const app = express();
-const port = 7070;
-// const port = 8000;
+// const port = 7070;
+const port = 8000;
 
 app.use(cors());
 app.use(bodyParser.json());
@@ -31,6 +29,8 @@ app.use('/api/zip', require('./routes/zip'));
 app.use('/api/downloadlist', require('./routes/downloadlist'));
 app.use('/api/delete', require('./routes/deletefiles'));
 app.use('/api/resetpass', require('./routes/resetpass'));
+app.use('/api/keyreset', require('./routes/keyreset'));
+app.use('/api/sendapikey', require('./routes/sendApiKey'));
 
 
 app.listen(port, () => {

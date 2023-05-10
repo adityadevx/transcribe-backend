@@ -1,0 +1,1 @@
+const API_KEY = JSON.parse(await fs.promises.readFile(path.join(__dirname, './routes/key.json'), 'utf8')).key;

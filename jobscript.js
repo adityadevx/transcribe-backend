@@ -1,8 +1,8 @@
 const fetch = require('node-fetch');
 const fs = require('fs');
 require('dotenv').config();
-
 const path = require('path');
+
 const downloadFolder = path.join(__dirname, './download/');
 const format = "txt";
 
@@ -25,13 +25,12 @@ const checkForResults = async () => {
 async function fetchJobStatuses(results) {
     for (const { job_id, file_name } of results) {
         try {
+            const API_KEY = JSON.parse(await fs.promises.readFile(path.join(__dirname, './routes/key.json'), 'utf8')).key;
             let result
-
             if (job_id) {
-
                 const response = await fetch(`https://asr.api.speechmatics.com/v2/jobs/${job_id}`, {
                     method: 'GET',
-                    headers: { Authorization: `Bearer ${process.env.API_KEY}` },
+                    headers: { Authorization: `Bearer ${API_KEY}` },
                 });
                 result = await response.json();
 
@@ -51,7 +50,7 @@ async function fetchJobStatuses(results) {
                 const textData = await fetch(`https://asr.api.speechmatics.com/v2/jobs/${job_id}/transcript?format=${format}`, {
                     method: "GET",
                     headers: {
-                        Authorization: `Bearer ${process.env.API_KEY}`
+                        Authorization: `Bearer ${API_KEY}`
                     },
                 });
 
