@@ -903,3 +903,823 @@ a78e9920af42cfa6cc8971800bb2bf135896b652 token
 a78e9920af42cfa6cc8971800bb2bf135896b652 token
 2580
 d6c2f90d37bd13da3551030f421a29f8b2db7e78 token
+Example app listening at http://localhost:8000
+Example app listening at http://localhost:7070
+188f77de09ed19930102083dd528116e21328d1b token
+188f77de09ed19930102083dd528116e21328d1b token
+188f77de09ed19930102083dd528116e21328d1b token
+188f77de09ed19930102083dd528116e21328d1b token
+188f77de09ed19930102083dd528116e21328d1b token
+188f77de09ed19930102083dd528116e21328d1b token
+188f77de09ed19930102083dd528116e21328d1b token
+undefined token
+undefined token
+undefined token
+undefined token
+fdf4070522ea794870069a4a8149c84025ee2850 token
+fdf4070522ea794870069a4a8149c84025ee2850 token
+admin
+5c0a75d8482fc668509181ef02b472a48b49e590 token
+5c0a75d8482fc668509181ef02b472a48b49e590 token
+5c0a75d8482fc668509181ef02b472a48b49e590 token
+5c0a75d8482fc668509181ef02b472a48b49e590 token
+5c0a75d8482fc668509181ef02b472a48b49e590 token
+5c0a75d8482fc668509181ef02b472a48b49e590 token
+5c0a75d8482fc668509181ef02b472a48b49e590 token
+5c0a75d8482fc668509181ef02b472a48b49e590 token
+5c0a75d8482fc668509181ef02b472a48b49e590 token
+c6077d9e8fb36e225f6146ca9372de9e886348c0 token
+c6077d9e8fb36e225f6146ca9372de9e886348c0 token
+c6077d9e8fb36e225f6146ca9372de9e886348c0 token
+c6077d9e8fb36e225f6146ca9372de9e886348c0 token
+{ outputLocale: 'en-GB', diarization: 'speaker', accuracy: 'enhanced' }
+{
+  code: 400,
+  detail: 'data_file is too small for valid audio, size: 22, smallest audio that I have ever seen was: 84',
+  error: 'Malformed request'
+}
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{
+  code: 400,
+  detail: 'data_file is too small for valid audio, size: 22, smallest audio that I have ever seen was: 84',
+  error: 'Malformed request'
+}
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{
+  code: 400,
+  detail: 'data_file is too small for valid audio, size: 22, smallest audio that I have ever seen was: 84',
+  error: 'Malformed request'
+}
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{
+  code: 400,
+  detail: 'data_file is too small for valid audio, size: 22, smallest audio that I have ever seen was: 84',
+  error: 'Malformed request'
+}
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ id: 'bbxq3kltpb' }
+[
+  { job_id: undefined, file_name: 'TranscribeFiles (1).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (10).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (11).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (12).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (13).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (2).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (3).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (4).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (5).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (6).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (7).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (8).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (9).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles.zip' },
+  { job_id: undefined, file_name: 'folder (15).zip' },
+  { job_id: undefined, file_name: 'folder (16).zip' },
+  { job_id: 'bbxq3kltpb', file_name: 'love me like you do.mp3' }
+]
+c6077d9e8fb36e225f6146ca9372de9e886348c0 token
+c6077d9e8fb36e225f6146ca9372de9e886348c0 token
+c6077d9e8fb36e225f6146ca9372de9e886348c0 token
+c6077d9e8fb36e225f6146ca9372de9e886348c0 token
+c6077d9e8fb36e225f6146ca9372de9e886348c0 token
+c6077d9e8fb36e225f6146ca9372de9e886348c0 token
+[ 'love me like you do.txt' ]
+[ 'MH_Dictation_11791.txt' ]
+c6077d9e8fb36e225f6146ca9372de9e886348c0 token
+c6077d9e8fb36e225f6146ca9372de9e886348c0 token
+c6077d9e8fb36e225f6146ca9372de9e886348c0 token
+c6077d9e8fb36e225f6146ca9372de9e886348c0 token
+c6077d9e8fb36e225f6146ca9372de9e886348c0 token
+c6077d9e8fb36e225f6146ca9372de9e886348c0 token
+ok
+a77c6f29bf19b46583a215642c118b426bd98268 token
+a77c6f29bf19b46583a215642c118b426bd98268 token
+admin
+7cdc547c07ea5c7bd6a6e3d2b9c046591d08f985 token
+undefined token
+undefined token
+undefined token
+undefined token
+undefined token
+3454577030fb9aa42d41b72f6f76096143fcf3f9 token
+3454577030fb9aa42d41b72f6f76096143fcf3f9 token
+3454577030fb9aa42d41b72f6f76096143fcf3f9 token
+{ outputLocale: 'en-GB', diarization: 'none', accuracy: 'standard' }
+{
+  code: 400,
+  detail: 'data_file is too small for valid audio, size: 22, smallest audio that I have ever seen was: 84',
+  error: 'Malformed request'
+}
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{
+  code: 400,
+  detail: 'data_file is too small for valid audio, size: 22, smallest audio that I have ever seen was: 84',
+  error: 'Malformed request'
+}
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{
+  code: 400,
+  detail: 'data_file is too small for valid audio, size: 22, smallest audio that I have ever seen was: 84',
+  error: 'Malformed request'
+}
+{
+  code: 400,
+  detail: 'data_file is too small for valid audio, size: 22, smallest audio that I have ever seen was: 84',
+  error: 'Malformed request'
+}
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{
+  code: 403,
+  detail: 'account is not allowed to create a job at the moment: This request would exceed your limit for Standard Model transcription in the current month. Your limit is 2 hours.',
+  error: 'Forbidden'
+}
+{
+  code: 403,
+  detail: 'account is not allowed to create a job at the moment: This request would exceed your limit for Standard Model transcription in the current month. Your limit is 2 hours.',
+  error: 'Forbidden'
+}
+{
+  code: 403,
+  detail: 'account is not allowed to create a job at the moment: This request would exceed your limit for Standard Model transcription in the current month. Your limit is 2 hours.',
+  error: 'Forbidden'
+}
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{
+  code: 403,
+  detail: 'account is not allowed to create a job at the moment: This request would exceed your limit for Standard Model transcription in the current month. Your limit is 2 hours.',
+  error: 'Forbidden'
+}
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{
+  code: 403,
+  detail: 'account is not allowed to create a job at the moment: This request would exceed your limit for Standard Model transcription in the current month. Your limit is 2 hours.',
+  error: 'Forbidden'
+}
+{
+  code: 403,
+  detail: 'account is not allowed to create a job at the moment: This request would exceed your limit for Standard Model transcription in the current month. Your limit is 2 hours.',
+  error: 'Forbidden'
+}
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{
+  code: 403,
+  detail: 'account is not allowed to create a job at the moment: This request would exceed your limit for Standard Model transcription in the current month. Your limit is 2 hours.',
+  error: 'Forbidden'
+}
+{
+  code: 403,
+  detail: 'account is not allowed to create a job at the moment: This request would exceed your limit for Standard Model transcription in the current month. Your limit is 2 hours.',
+  error: 'Forbidden'
+}
+{
+  code: 403,
+  detail: 'account is not allowed to create a job at the moment: This request would exceed your limit for Standard Model transcription in the current month. Your limit is 2 hours.',
+  error: 'Forbidden'
+}
+{
+  code: 403,
+  detail: 'account is not allowed to create a job at the moment: This request would exceed your limit for Standard Model transcription in the current month. Your limit is 2 hours.',
+  error: 'Forbidden'
+}
+{
+  code: 403,
+  detail: 'account is not allowed to create a job at the moment: This request would exceed your limit for Standard Model transcription in the current month. Your limit is 2 hours.',
+  error: 'Forbidden'
+}
+{
+  code: 403,
+  detail: 'account is not allowed to create a job at the moment: This request would exceed your limit for Standard Model transcription in the current month. Your limit is 2 hours.',
+  error: 'Forbidden'
+}
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{
+  code: 403,
+  detail: 'account is not allowed to create a job at the moment: This request would exceed your limit for Standard Model transcription in the current month. Your limit is 2 hours.',
+  error: 'Forbidden'
+}
+{
+  code: 403,
+  detail: 'account is not allowed to create a job at the moment: This request would exceed your limit for Standard Model transcription in the current month. Your limit is 2 hours.',
+  error: 'Forbidden'
+}
+{
+  code: 403,
+  detail: 'account is not allowed to create a job at the moment: This request would exceed your limit for Standard Model transcription in the current month. Your limit is 2 hours.',
+  error: 'Forbidden'
+}
+{
+  code: 403,
+  detail: 'account is not allowed to create a job at the moment: This request would exceed your limit for Standard Model transcription in the current month. Your limit is 2 hours.',
+  error: 'Forbidden'
+}
+[
+  { job_id: undefined, file_name: 'DPM 3220.wav' },
+  { job_id: undefined, file_name: 'DPM 3221.wav' },
+  { job_id: undefined, file_name: 'DPM 3222.wav' },
+  { job_id: undefined, file_name: 'DPM 3223.wav' },
+  { job_id: undefined, file_name: 'DPM 3224.wav' },
+  { job_id: undefined, file_name: 'DPM 3225.wav' },
+  { job_id: undefined, file_name: 'DPM 3226.wav' },
+  { job_id: undefined, file_name: 'DPM 3227.wav' },
+  { job_id: undefined, file_name: 'DPM 3228.wav' },
+  { job_id: undefined, file_name: 'DPM 3229.wav' },
+  { job_id: undefined, file_name: 'DPM 3230.wav' },
+  { job_id: undefined, file_name: 'DPM 3231.wav' },
+  { job_id: undefined, file_name: 'DPM 3232.wav' },
+  { job_id: undefined, file_name: 'DPM 3233.wav' },
+  { job_id: undefined, file_name: 'DPM 3234.wav' },
+  { job_id: undefined, file_name: 'DPM 3235.wav' },
+  { job_id: undefined, file_name: 'TranscribeFiles (1).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (10).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (11).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (12).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (13).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (2).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (3).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (4).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (5).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (6).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (7).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (8).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (9).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles.zip' },
+  { job_id: undefined, file_name: 'folder (15).zip' },
+  { job_id: undefined, file_name: 'folder (16).zip' }
+]
+3454577030fb9aa42d41b72f6f76096143fcf3f9 token
+[
+  'love me like you do.txt',
+  'Mocking Bird.txt',
+  'MH_Dictation_11798.txt',
+  'MH_Dictation_11791.txt',
+  'MH_Dictation_11790.txt',
+  'MH_Dictation_11794.txt',
+  'MH_Dictation_11787.txt',
+  'MH_Dictation_11797.txt',
+  '50105.txt',
+  'A D.txt',
+  '201125_0884.txt',
+  '0185.txt',
+  '7932.txt',
+  '8843.txt',
+  'Holding.txt',
+  'Hry.txt',
+  'Pri.txt',
+  'Ed.txt',
+  'Ed.txt'
+]
+love me like you do.txt was deleted
+MH_Dictation_11791.txt was deleted
+MH_Dictation_11794.txt was deleted
+MH_Dictation_11787.txt was deleted
+Mocking Bird.txt was deleted
+MH_Dictation_11797.txt was deleted
+A D.txt was deleted
+MH_Dictation_11798.txt was deleted
+201125_0884.txt was deleted
+7932.txt was deleted
+8843.txt was deleted
+Holding.txt was deleted
+Hry.txt was deleted
+Pri.txt was deleted
+Ed.txt was deleted
+node:_http_outgoing:645
+    throw new ERR_HTTP_HEADERS_SENT('set');
+    ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.setHeader (node:_http_outgoing:645:11)
+    at ServerResponse.header (/opt/backend/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/opt/backend/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/opt/backend/node_modules/express/lib/response.js:278:15)
+    at /opt/backend/routes/deletefiles.js:12:49
+    at FSReqCallback.oncomplete (node:fs:198:23) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v18.16.0
+Example app listening at http://localhost:7070
+3454577030fb9aa42d41b72f6f76096143fcf3f9 token
+3454577030fb9aa42d41b72f6f76096143fcf3f9 token
+3454577030fb9aa42d41b72f6f76096143fcf3f9 token
+3454577030fb9aa42d41b72f6f76096143fcf3f9 token
+3454577030fb9aa42d41b72f6f76096143fcf3f9 token
+3454577030fb9aa42d41b72f6f76096143fcf3f9 token
+[ '0375.txt' ]
+0375.txt was deleted
+3454577030fb9aa42d41b72f6f76096143fcf3f9 token
+3454577030fb9aa42d41b72f6f76096143fcf3f9 token
+3454577030fb9aa42d41b72f6f76096143fcf3f9 token
+3454577030fb9aa42d41b72f6f76096143fcf3f9 token
+3454577030fb9aa42d41b72f6f76096143fcf3f9 token
+3454577030fb9aa42d41b72f6f76096143fcf3f9 token
+3454577030fb9aa42d41b72f6f76096143fcf3f9 token
+3454577030fb9aa42d41b72f6f76096143fcf3f9 token
+3454577030fb9aa42d41b72f6f76096143fcf3f9 token
+3454577030fb9aa42d41b72f6f76096143fcf3f9 token
+3454577030fb9aa42d41b72f6f76096143fcf3f9 token
+3454577030fb9aa42d41b72f6f76096143fcf3f9 token
+3454577030fb9aa42d41b72f6f76096143fcf3f9 token
+3454577030fb9aa42d41b72f6f76096143fcf3f9 token
+3454577030fb9aa42d41b72f6f76096143fcf3f9 token
+3454577030fb9aa42d41b72f6f76096143fcf3f9 token
+3454577030fb9aa42d41b72f6f76096143fcf3f9 token
+3454577030fb9aa42d41b72f6f76096143fcf3f9 token
+{ outputLocale: 'en-US', diarization: 'none', accuracy: 'standard' }
+{ id: 'a860q7y0of' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ id: '6rwy0ys6os' }
+{
+  code: 400,
+  detail: 'data_file is too small for valid audio, size: 22, smallest audio that I have ever seen was: 84',
+  error: 'Malformed request'
+}
+{ id: '4103tvth5p' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ id: 'qvupi474pf' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ id: 'l8s1g7zm4e' }
+{ id: 'flhvw9yuvn' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ id: '3rpbhcvlt4' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ id: 'txttrd6iif' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ id: 'fch70ulrjv' }
+{
+  code: 400,
+  detail: 'data_file is too small for valid audio, size: 22, smallest audio that I have ever seen was: 84',
+  error: 'Malformed request'
+}
+{ id: 'ic7wudg9ps' }
+{
+  code: 400,
+  detail: 'data_file is too small for valid audio, size: 22, smallest audio that I have ever seen was: 84',
+  error: 'Malformed request'
+}
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ id: 'r8688roaxl' }
+{ id: 'loh75y3t3e' }
+{ id: 'qs3r94r2n7' }
+{ id: 'immhjt04z2' }
+{ id: 'wlgfyxny6c' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{
+  code: 400,
+  detail: 'data_file is too small for valid audio, size: 22, smallest audio that I have ever seen was: 84',
+  error: 'Malformed request'
+}
+{ id: '7ooy4vz48m' }
+{ id: 'mkmk6f6eij' }
+{ id: 'wgnnf1ikw4' }
+{ id: 'b53vocblq2' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ id: 'wqx5ghpgjn' }
+{ id: '7whob83gih' }
+{ id: 'e1t1qlhto5' }
+{ id: '23gapzj6sg' }
+{ id: '8k7k7f5z4b' }
+{ id: 'z6vhyftul2' }
+{ id: 'uiq307bnwj' }
+{ id: 'ezyq21r8bj' }
+[
+  { job_id: '3rpbhcvlt4', file_name: '395.wav' },
+  { job_id: 'qvupi474pf', file_name: '396.wav' },
+  { job_id: 'a860q7y0of', file_name: '397.wav' },
+  { job_id: 'wlgfyxny6c', file_name: '398.wav' },
+  { job_id: 'txttrd6iif', file_name: '399.wav' },
+  { job_id: '6rwy0ys6os', file_name: '400.wav' },
+  { job_id: 'b53vocblq2', file_name: '401.wav' },
+  { job_id: '4103tvth5p', file_name: '402.wav' },
+  { job_id: 'fch70ulrjv', file_name: '403.wav' },
+  { job_id: 'ic7wudg9ps', file_name: '404.wav' },
+  { job_id: 'r8688roaxl', file_name: '405.wav' },
+  { job_id: 'flhvw9yuvn', file_name: 'DPM 3220.wav' },
+  { job_id: 'loh75y3t3e', file_name: 'DPM 3221.wav' },
+  { job_id: '7ooy4vz48m', file_name: 'DPM 3222.wav' },
+  { job_id: 'immhjt04z2', file_name: 'DPM 3223.wav' },
+  { job_id: 'ezyq21r8bj', file_name: 'DPM 3224.wav' },
+  { job_id: 'l8s1g7zm4e', file_name: 'DPM 3225.wav' },
+  { job_id: 'wgnnf1ikw4', file_name: 'DPM 3226.wav' },
+  { job_id: 'qs3r94r2n7', file_name: 'DPM 3227.wav' },
+  { job_id: 'e1t1qlhto5', file_name: 'DPM 3228.wav' },
+  { job_id: 'mkmk6f6eij', file_name: 'DPM 3229.wav' },
+  { job_id: '7whob83gih', file_name: 'DPM 3230.wav' },
+  { job_id: 'wqx5ghpgjn', file_name: 'DPM 3231.wav' },
+  { job_id: 'uiq307bnwj', file_name: 'DPM 3232.wav' },
+  { job_id: '8k7k7f5z4b', file_name: 'DPM 3233.wav' },
+  { job_id: '23gapzj6sg', file_name: 'DPM 3234.wav' },
+  { job_id: 'z6vhyftul2', file_name: 'DPM 3235.wav' },
+  { job_id: undefined, file_name: 'TranscribeFiles (1).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (10).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (11).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (12).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (13).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (2).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (3).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (4).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (5).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (6).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (7).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (8).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (9).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles.zip' },
+  { job_id: undefined, file_name: 'folder (15).zip' },
+  { job_id: undefined, file_name: 'folder (16).zip' }
+]
+3454577030fb9aa42d41b72f6f76096143fcf3f9 token
+3454577030fb9aa42d41b72f6f76096143fcf3f9 token
+3454577030fb9aa42d41b72f6f76096143fcf3f9 token
+3454577030fb9aa42d41b72f6f76096143fcf3f9 token
+3454577030fb9aa42d41b72f6f76096143fcf3f9 token
+[
+  'DPM 3224.txt', 'DPM 3232.txt',
+  'DPM 3235.txt', 'DPM 3233.txt',
+  'DPM 3231.txt', 'DPM 3229.txt',
+  'DPM 3226.txt', 'DPM 3223.txt',
+  'DPM 3227.txt', 'DPM 3221.txt',
+  '405.txt',      '404.txt',
+  '403.txt',      '395.txt',
+  '399.txt',      'DPM 3220.txt',
+  'DPM 3225.txt', '396.txt',
+  '402.txt',      '400.txt',
+  '397.txt'
+]
+3454577030fb9aa42d41b72f6f76096143fcf3f9 token
+3454577030fb9aa42d41b72f6f76096143fcf3f9 token
+3454577030fb9aa42d41b72f6f76096143fcf3f9 token
+3454577030fb9aa42d41b72f6f76096143fcf3f9 token
+3454577030fb9aa42d41b72f6f76096143fcf3f9 token
+3454577030fb9aa42d41b72f6f76096143fcf3f9 token
+[
+  'DPM 3224.txt', 'DPM 3232.txt',
+  'DPM 3235.txt', 'DPM 3233.txt',
+  'DPM 3234.txt', 'DPM 3228.txt',
+  'DPM 3231.txt', '401.txt',
+  'DPM 3229.txt', 'DPM 3226.txt',
+  '398.txt',      'DPM 3223.txt',
+  'DPM 3227.txt', 'DPM 3221.txt',
+  '405.txt',      '404.txt',
+  '403.txt',      '395.txt',
+  '399.txt',      'DPM 3220.txt',
+  'DPM 3225.txt', '396.txt',
+  '402.txt',      '400.txt',
+  '397.txt'
+]
+3454577030fb9aa42d41b72f6f76096143fcf3f9 token
+3454577030fb9aa42d41b72f6f76096143fcf3f9 token
+{ outputLocale: 'en-GB', diarization: 'none', accuracy: 'standard' }
+{
+  code: 400,
+  detail: 'data_file is too small for valid audio, size: 22, smallest audio that I have ever seen was: 84',
+  error: 'Malformed request'
+}
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{
+  code: 400,
+  detail: 'data_file is too small for valid audio, size: 22, smallest audio that I have ever seen was: 84',
+  error: 'Malformed request'
+}
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{
+  code: 400,
+  detail: 'data_file is too small for valid audio, size: 22, smallest audio that I have ever seen was: 84',
+  error: 'Malformed request'
+}
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ id: 's010u06hjn' }
+{ id: '0mg20o3txc' }
+{
+  code: 400,
+  detail: 'data_file is too small for valid audio, size: 22, smallest audio that I have ever seen was: 84',
+  error: 'Malformed request'
+}
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ id: 'fh6hmce7z9' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+invalid json response body at https://asr.api.speechmatics.com/v2/jobs/ reason: Unexpected token < in JSON at position 0 FetchError: invalid json response body at https://asr.api.speechmatics.com/v2/jobs/ reason: Unexpected token < in JSON at position 0
+    at /opt/backend/node_modules/node-fetch/lib/index.js:273:32
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /opt/backend/routes/transcribe.js:45:24
+    at async Promise.all (index 3)
+    at async transcodeAudio (/opt/backend/routes/transcribe.js:52:21)
+    at async /opt/backend/routes/transcribe.js:61:25
+3454577030fb9aa42d41b72f6f76096143fcf3f9 token
+{ outputLocale: 'en-GB', diarization: 'none', accuracy: 'standard' }
+{
+  code: 400,
+  detail: 'data_file is too small for valid audio, size: 22, smallest audio that I have ever seen was: 84',
+  error: 'Malformed request'
+}
+{
+  code: 400,
+  detail: 'data_file is too small for valid audio, size: 22, smallest audio that I have ever seen was: 84',
+  error: 'Malformed request'
+}
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ id: 'c0aol82nc1' }
+{
+  code: 400,
+  detail: 'data_file is too small for valid audio, size: 22, smallest audio that I have ever seen was: 84',
+  error: 'Malformed request'
+}
+{ id: '03vvxr1lnu' }
+{ id: 'ufciixamnh' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ id: 'snyap1wc97' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{
+  code: 400,
+  detail: 'data_file is too small for valid audio, size: 22, smallest audio that I have ever seen was: 84',
+  error: 'Malformed request'
+}
+[
+  { job_id: '03vvxr1lnu', file_name: 'DPM 3222   x.wav' },
+  { job_id: 'c0aol82nc1', file_name: 'DPM 3222.wav' },
+  { job_id: 'snyap1wc97', file_name: 'DPM 3230  x.wav' },
+  { job_id: 'ufciixamnh', file_name: 'DPM 3230.wav' },
+  { job_id: undefined, file_name: 'TranscribeFiles (1).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (10).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (11).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (12).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (13).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (2).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (3).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (4).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (5).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (6).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (7).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (8).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (9).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles.zip' },
+  { job_id: undefined, file_name: 'folder (15).zip' },
+  { job_id: undefined, file_name: 'folder (16).zip' }
+]
+3454577030fb9aa42d41b72f6f76096143fcf3f9 token
+3454577030fb9aa42d41b72f6f76096143fcf3f9 token
+{ outputLocale: 'en-US', diarization: 'none', accuracy: 'standard' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{
+  code: 400,
+  detail: 'data_file is too small for valid audio, size: 22, smallest audio that I have ever seen was: 84',
+  error: 'Malformed request'
+}
+{
+  code: 400,
+  detail: 'data_file is too small for valid audio, size: 22, smallest audio that I have ever seen was: 84',
+  error: 'Malformed request'
+}
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{
+  code: 400,
+  detail: 'data_file is too small for valid audio, size: 22, smallest audio that I have ever seen was: 84',
+  error: 'Malformed request'
+}
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{
+  code: 400,
+  detail: 'data_file is too small for valid audio, size: 22, smallest audio that I have ever seen was: 84',
+  error: 'Malformed request'
+}
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ id: 'bt7zmbb0ub' }
+{ id: 'qogfp2bjlg' }
+[
+  { job_id: 'bt7zmbb0ub', file_name: '5524.wav' },
+  { job_id: 'qogfp2bjlg', file_name: '5525.wav' },
+  { job_id: undefined, file_name: 'TranscribeFiles (1).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (10).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (11).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (12).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (13).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (2).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (3).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (4).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (5).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (6).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (7).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (8).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (9).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles.zip' },
+  { job_id: undefined, file_name: 'folder (15).zip' },
+  { job_id: undefined, file_name: 'folder (16).zip' }
+]
+3454577030fb9aa42d41b72f6f76096143fcf3f9 token
+{ outputLocale: 'en-US', diarization: 'none', accuracy: 'standard' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{
+  code: 400,
+  detail: 'data_file is too small for valid audio, size: 22, smallest audio that I have ever seen was: 84',
+  error: 'Malformed request'
+}
+{
+  code: 400,
+  detail: 'data_file is too small for valid audio, size: 22, smallest audio that I have ever seen was: 84',
+  error: 'Malformed request'
+}
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{
+  code: 400,
+  detail: 'data_file is too small for valid audio, size: 22, smallest audio that I have ever seen was: 84',
+  error: 'Malformed request'
+}
+{ id: 'x34te9yu44' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{
+  code: 400,
+  detail: 'data_file is too small for valid audio, size: 22, smallest audio that I have ever seen was: 84',
+  error: 'Malformed request'
+}
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ id: 'cvz5ibzwqp' }
+{ id: '32piktacpa' }
+[
+  { job_id: 'x34te9yu44', file_name: '1199.wav' },
+  { job_id: '32piktacpa', file_name: '5524.wav' },
+  { job_id: 'cvz5ibzwqp', file_name: '5525.wav' },
+  { job_id: undefined, file_name: 'TranscribeFiles (1).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (10).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (11).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (12).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (13).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (2).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (3).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (4).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (5).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (6).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (7).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (8).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (9).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles.zip' },
+  { job_id: undefined, file_name: 'folder (15).zip' },
+  { job_id: undefined, file_name: 'folder (16).zip' }
+]
+3454577030fb9aa42d41b72f6f76096143fcf3f9 token
+[ '1199.txt', '5525.txt', '5524.txt', 'DPM 3230.txt', 'DPM 3222.txt' ]
+3454577030fb9aa42d41b72f6f76096143fcf3f9 token
+{ outputLocale: 'en-US', diarization: 'none', accuracy: 'standard' }
+{
+  code: 400,
+  detail: 'data_file is too small for valid audio, size: 22, smallest audio that I have ever seen was: 84',
+  error: 'Malformed request'
+}
+{
+  code: 400,
+  detail: 'data_file is too small for valid audio, size: 22, smallest audio that I have ever seen was: 84',
+  error: 'Malformed request'
+}
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{
+  code: 400,
+  detail: 'data_file is too small for valid audio, size: 22, smallest audio that I have ever seen was: 84',
+  error: 'Malformed request'
+}
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{ code: 400, error: 'Job rejected due to invalid audio' }
+{
+  code: 400,
+  detail: 'data_file is too small for valid audio, size: 22, smallest audio that I have ever seen was: 84',
+  error: 'Malformed request'
+}
+{ id: '8cq69wm47u' }
+[
+  { job_id: '8cq69wm47u', file_name: '0376.wav' },
+  { job_id: undefined, file_name: 'TranscribeFiles (1).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (10).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (11).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (12).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (13).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (2).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (3).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (4).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (5).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (6).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (7).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (8).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles (9).zip' },
+  { job_id: undefined, file_name: 'TranscribeFiles.zip' },
+  { job_id: undefined, file_name: 'folder (15).zip' },
+  { job_id: undefined, file_name: 'folder (16).zip' }
+]
+3454577030fb9aa42d41b72f6f76096143fcf3f9 token
+3454577030fb9aa42d41b72f6f76096143fcf3f9 token
+[ '0376.txt' ]
+[ '0376.txt' ]
+38895821bee66cb56301636401044101a94741f9 token
+38895821bee66cb56301636401044101a94741f9 token
+[
+  '0376.txt',         '5524.txt',
+  '5525.txt',         '1199.txt',
+  'DPM 3230  x.txt',  'DPM 3230.txt',
+  'DPM 3222   x.txt', 'DPM 3222.txt',
+  'DPM 3224.txt',     'DPM 3232.txt',
+  'DPM 3235.txt',     'DPM 3233.txt',
+  'DPM 3234.txt',     'DPM 3228.txt',
+  'DPM 3231.txt',     '401.txt',
+  'DPM 3229.txt',     'DPM 3226.txt',
+  '398.txt',          'DPM 3223.txt',
+  'DPM 3227.txt',     'DPM 3221.txt',
+  '405.txt',          '404.txt',
+  '403.txt',          '395.txt',
+  '399.txt',          'DPM 3220.txt',
+  'DPM 3225.txt',     '396.txt',
+  '402.txt',          '400.txt',
+  '397.txt'
+]
+0376.txt was deleted
+5524.txt was deleted
+5525.txt was deleted
+1199.txt was deleted
+DPM 3230  x.txt was deleted
+DPM 3230.txt was deleted
+DPM 3222   x.txt was deleted
+DPM 3222.txt was deleted
+DPM 3224.txt was deleted
+DPM 3234.txt was deleted
+DPM 3228.txt was deleted
+DPM 3231.txt was deleted
+401.txt was deleted
+DPM 3229.txt was deleted
+DPM 3226.txt was deleted
+398.txt was deleted
+DPM 3223.txt was deleted
+DPM 3227.txt was deleted
+DPM 3221.txt was deleted
+405.txt was deleted
+404.txt was deleted
+403.txt was deleted
+395.txt was deleted
+399.txt was deleted
+DPM 3220.txt was deleted
+DPM 3225.txt was deleted
+396.txt was deleted
+402.txt was deleted
+400.txt was deleted
+397.txt was deleted
+DPM 3232.txt was deleted
+DPM 3235.txt was deleted
+DPM 3233.txt was deleted
+38895821bee66cb56301636401044101a94741f9 token
+38895821bee66cb56301636401044101a94741f9 token
+38895821bee66cb56301636401044101a94741f9 token
+38895821bee66cb56301636401044101a94741f9 token
+7285d03a9c7049f058e3ea8479848b4989444ca3 token
+undefined token
