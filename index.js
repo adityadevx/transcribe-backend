@@ -1,11 +1,12 @@
 const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
+const path = require('path');
 
 
 const app = express();
-// const port = 7070;
-const port = 8000;
+const port = 7070;
+// const port = 8000;
 
 app.use(cors());
 app.use(bodyParser.json());
@@ -20,11 +21,13 @@ app.use('/api/upload', require('./routes/upload'));
 app.use('/api/transcode', require('./routes/transcribe'));
 
 
-// single file download
-// app.use('/api/download', require('./routes/download'));
+
 
 // zip file download
 app.use('/api/zip', require('./routes/zip'));
+
+// single file download
+app.use('/api/singlefile', require(path.join(__dirname, './routes/singlefile')));
 
 app.use('/api/downloadlist', require('./routes/downloadlist'));
 app.use('/api/delete', require('./routes/deletefiles'));
