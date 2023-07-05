@@ -9,8 +9,8 @@ router.post('/', (req, res) => {
         // console.log(files);
         req.body.forEach(file => {
             fs.unlink(path.join(__dirname, `../download/${file}`), (err) => {
-                if (err) return res.status(500).json({ message: 'Internal server error' });
-                console.log(`${file} was deleted`);
+                if (err) throw 'Internal server error';
+                //`${file} was deleted`);
             });
         });
         res.status(200).json({ message: 'Files deleted successfully' });
