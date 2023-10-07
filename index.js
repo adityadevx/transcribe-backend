@@ -2,6 +2,8 @@ const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 const path = require('path');
+const fs = require('fs');
+
 
 const app = express();
 const port = 1000;
@@ -12,6 +14,11 @@ app.use(bodyParser.json());
 app.get('/', (req, res) => {
     res.send('Hello World!');
 });
+
+if (!fs.existsSync(path.join(__dirname, 'download'))) {
+    fs.mkdirSync(path.join(__dirname, 'download'));
+}
+
 
 app.use('/api/login', require('./routes/login'));
 app.use('/api/validateuser', require('./routes/validateuser'));

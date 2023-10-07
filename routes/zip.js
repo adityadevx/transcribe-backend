@@ -10,14 +10,18 @@ router.post('/', async (req, res) => {
         const folderPath = path.join(__dirname, '..', 'download');
         const files = fs.readdirSync(folderPath);
 
-        // console.log(requestedFiles);
-        console.log(req.body);
+        if (!req.body || !Array.isArray(req.body)) {
+            return res.status(400).send('Invalid request. Please provide an array of file IDs.');
+        }
 
-
-        // Add only the requested files to the zip archive
-        req.body.forEach(file => {
-            if (files.includes(file)) {
-                zip.addLocalFile(path.join(folderPath, file));
+        req.body.forEach((file) => {
+            const fileId = file.id + '.txt';
+            const filename = file.value + '.txt';
+            if (files.includes(fileId)) {
+                // zip.addLocalFile(path.join(folderPath, fileId));
+                zip.addLocalFile(path.join(folderPath, fileId), '', filename);
+            } else {
+                console.warn(`File with ID ${fileId} not found.`);
             }
         });
 
