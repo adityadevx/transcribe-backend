@@ -55,8 +55,8 @@ async function fetchJobStatuses(results) {
                 });
 
                 const transcript = await textData.text();
-                const textFileName = file_name.split(".")[0]
-                const fileName = `${downloadFolder}${textFileName}.${format}`;
+                
+                const fileName = `${downloadFolder}${job_id}.${format}`;
 
                 if (!fs.existsSync(downloadFolder)) {
                     fs.mkdirSync(downloadFolder);
@@ -80,11 +80,6 @@ async function fetchJobStatuses(results) {
     }
     return true
 }
-
-//setInterval(() => {
-// console.log('Checking for results')
-//   checkForResults();
-//}, 1000);
 
 
 //while (true) {
