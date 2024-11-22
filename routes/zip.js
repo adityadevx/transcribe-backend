@@ -16,7 +16,7 @@ router.post('/', async (req, res) => {
 
         req.body.forEach((file) => {
             const fileId = file.id + '.txt';
-            const filename = file.value + '.txt';
+            const filename = file.value.split(".")[0] + '.txt';
             if (files.includes(fileId)) {
                 // zip.addLocalFile(path.join(folderPath, fileId));
                 zip.addLocalFile(path.join(folderPath, fileId), '', filename);
